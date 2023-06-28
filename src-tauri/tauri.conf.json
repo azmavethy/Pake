@@ -4,6 +4,16 @@
     "version": "1.0.0"
   },
   "tauri": {
+    "windows": [
+      {
+        "url": "https://weread.qq.com/",
+        "transparent": false,
+        "fullscreen": false,
+        "width": 1200,
+        "height": 728,
+        "resizable": true
+      }
+    ],
     "security": {
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
